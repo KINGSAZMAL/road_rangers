@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/adminstyle.css">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="images/logo2.png" alt="Admin Logo"> <!-- Replace with your admin logo -->
+
+        <h1>Admin Login</h1>
+        <form id="adminLoginForm" class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <center><button type="button" onclick="login()">Login</button></center>
+        </form>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+
+    <script src="js/scriptsadmin.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXj8h5fl6Tb9Qv1sazrDf+9S6R5IWbe9U9N" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('images/carlogo2.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color:rgb(69, 171, 234);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 40px; /* Adjust the height as needed */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            color: black;
+            padding: 50px 0;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .feature {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+    </style>
+    <title>Roadside Assistance</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/logo.png" alt="Road Rangers Logo">
+            <h1>ROAD RANGER'S</h1>
+        </div>
+        <nav>
+            <a href="request_assistance.html">Request Assistance</a>
+            <a href="admin_login.html">View Assistance Requests</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Your Safety, Our Priority</h2>
+                <p>24/7 Roadside Assistance at Your Fingertips</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-car"></i>
+                <h3>Quick Response</h3>
+                <p>Fast and reliable assistance when you need it the most.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location Tracking</h3>
+                <p>We'll locate you and send help to your exact location.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-phone"></i>
+                <h3>Emergency Hotline</h3>
+                <p>Call 9876543210 our 24/7 hotline for immediate assistance.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
